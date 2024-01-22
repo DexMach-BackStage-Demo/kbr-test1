@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kbr-test1"
+  annotations:
+    github.com/project-slug: dexmach-backstage-demo/kbr-test1
+    backstage.io/kubernetes-id: "kbr-test1"
+    backstage.io/kubernetes-namespace: "kbr-test1"
+    backstage.io/kubernetes-cluster: aks-pe-poc-01
+    backstage.io/techdocs-ref: dir:.
+    azure.com/tag-selector: backstage-entity-id/kbr-test1
+spec:
+  type: service
+  owner: group:cloud-native
+  lifecycle: experimental
